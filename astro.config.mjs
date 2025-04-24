@@ -7,7 +7,8 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'Registry Home',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+			favicon: '/src/assets/MD_logo.png',
+			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/Asumdoud/MD-Personnel-Logs' }],
 			sidebar: [
 				{
 					label: 'Guides',
