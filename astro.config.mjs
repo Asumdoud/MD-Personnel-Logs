@@ -6,8 +6,9 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+			title: 'Registry Home',
+			favicon: '/src/assets/MD_logo.png',
+			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/Asumdoud/MD-Personnel-Logs' }],
 			sidebar: [
 				{
 					label: 'Guides',
