@@ -9,6 +9,7 @@ export default defineConfig({
 			title: 'Registry Home',
 			favicon: '/src/assets/MD_logo.png',
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/Asumdoud/MD-Personnel-Logs' }],
+			customCss: '/src/styles/custom.css',
 			sidebar: [
 				{
 					label: 'Resources',

@@ -1,0 +1,2 @@
+html[data-theme="dark"] #calendar_embed {
+    filter: invert(95%) hue-rotate(180deg);
